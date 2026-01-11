@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Đinh Bảo Khánh</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">DBK.Dev</div>
+      <ul class="nav-links">
+        <li><a href="#home">Trang chủ</a></li>
+        <li><a href="#about">Về tôi</a></li>
+        <li><a href="#projects">Dự án</a></li>
+        <li><a href="#contact">Liên hệ</a></li>
+      </ul>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h3>Xin chào, mình là</h3>
+        <h1>Đinh Bảo Khánh</h1>
+        <h2 class="typing-text">
+          Sinh viên năm cuối PTIT <span class="cursor">|</span>
+        </h2>
+        <p>
+          Full-stack Developer tương lai với nền tảng tư duy từ chuyên Ams. Đam
+          mê xây dựng sản phẩm công nghệ .
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary">Xem Portfolio</a>
+          <a
+            href="https://github.com/dinhbaokhanh"
+            target="_blank"
+            class="btn btn-secondary"
+            >Github</a
+          >
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="./img/avatar.jpg" alt="Đinh Bảo Khánh" />
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">Về bản thân</h2>
+
+        <div class="about-grid">
+          <div class="about-left">
+            <h3>Lập trình viên & Người hướng dẫn</h3>
+            <p>
+              Xuất thân là học sinh chuyên <strong>Hanoi-Amsterdam</strong> và
+              hiện là sinh viên năm cuối tại
+              <strong>Học viện Công nghệ Bưu chính Viễn thông (PTIT)</strong>.
+            </p>
+            <p>
+              Bên cạnh việc phát triển các ứng dụng Web (MERN Stack), mình còn
+              có kinh nghiệm làm việc thực tế với vai trò
+              <strong>Giảng viên lập trình (Mentor)</strong> tại MindX. Mình tin
+              rằng việc dạy học là cách tốt nhất để nắm vững kiến thức cốt lõi.
+            </p>
+
+            <div class="skills-box">
+              <h4>Kỹ năng chính</h4>
+              <ul class="skills-list">
+                <li><i class="fab fa-react"></i> ReactJS & Native</li>
+                <li><i class="fab fa-node-js"></i> NodeJS</li>
+                <li><i class="fas fa-database"></i> MongoDB/SQL</li>
+                <li><i class="fas fa-language"></i> IELTS 6.5</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="about-right">
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023 - Hiện tại</div>
+                <div class="timeline-content">
+                  <h3>MindX Technology School</h3>
+                  <h4>Giảng viên Lập trình (Part-time)</h4>
+                  <p>
+                    Hướng dẫn học viên tư duy lập trình, review code và hỗ trợ
+                    thực hiện các dự án cuối khóa.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022 - Nay</div>
+                <div class="timeline-content">
+                  <h3>Học viện CN Bưu chính Viễn thông</h3>
+                  <h4>Sinh viên Công nghệ thông tin</h4>
+                  <p>
+                    Sinh viên năm cuối. Tập trung nghiên cứu về Web Development
+                    và System Design.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019 - 2022</div>
+                <div class="timeline-content">
+                  <h3>THPT Chuyên Hà Nội - Amsterdam</h3>
+                  <h4>Cựu học sinh</h4>
+                  <p>
+                    Rèn luyện tư duy logic và khả năng tự học trong môi trường
+                    chuyên.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Dự án thực tế</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+            <h3>E-learning MERN</h3>
+            <p>
+              Hệ thống học trực tuyến Full-stack. Áp dụng kiến thức quản lý
+              trạng thái và bảo mật API.
+            </p>
+            <div class="tech-stack">
+              <span>React</span><span>NodeJS</span><span>Express</span
+              ><span>MongoDB</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://github.com/dinhbaokhanh/ELearning_MERN"
+                target="_blank"
+                ><i class="fab fa-github"></i> Code</a
+              >
+              <a href="https://elearning-mern.vercel.app" target="_blank"
+                ><i class="fas fa-external-link-alt"></i> Demo</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="card-icon"><i class="fas fa-comments"></i></div>
+            <h3>Chat Box Realtime</h3>
+            <p>
+              Ứng dụng nhắn tin thời gian thực. Xử lý WebSocket để tối ưu độ trễ
+              tin nhắn.
+            </p>
+            <div class="tech-stack">
+              <span>Socket.io</span><span>ReactJS</span><span>Firebase</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://github.com/dinhbaokhanh/ChatBox_Client"
+                target="_blank"
+                ><i class="fab fa-github"></i> Code</a
+              >
+              <a href="https://chat-box-beryl.vercel.app" target="_blank"
+                ><i class="fas fa-external-link-alt"></i> Demo</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="card-icon"><i class="fas fa-folder-open"></i></div>
+            <h3>Ngân hàng tài liệu</h3>
+            <p>
+              Kho lưu trữ tài liệu học tập cho sinh viên, hỗ trợ tìm kiếm và
+              phân loại nhanh chóng.
+            </p>
+            <div class="tech-stack">
+              <span>ReactJS</span><span>Restful API</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://github.com/dinhbaokhanh/NganHangTaiLieu"
+                target="_blank"
+                ><i class="fab fa-github"></i> Code</a
+              >
+              <a href="https://ngan-hang-tai-lieu.vercel.app" target="_blank"
+                ><i class="fas fa-external-link-alt"></i> Demo</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Liên hệ</h2>
+        <p>Đang tìm kiếm cơ hội Thực tập / Full-time? Hãy kết nối với mình.</p>
+        <div class="social-links">
+          <a href="https://github.com/dinhbaokhanh" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="khanhdbao0209@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="copyright">© 2026 Đinh Bảo Khánh - PTIT Student.</p>
+      </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
